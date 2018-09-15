@@ -1,0 +1,44 @@
+{
+  "name": "wheretowork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "fix-js": "eslint --fix",
+    "fix-css": "stylelint css/**/*.css --fix",
+    "lint": "stylelint css/**/*.css --fix && eslint components/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dainemawer/wheretowork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dainemawer/wheretowork/issues"
+  },
+  "homepage": "https://github.com/dainemawer/wheretowork#readme",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "next": "^6.1.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-order": "^1.0.0"
+  }
+}
